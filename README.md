@@ -1,77 +1,78 @@
-# TCM_OSINT
-JU5T L1NKS AND T00LS US3 TH3M A5 Y0U WANT
-
-
-# 🕵️‍♂️ TCM OSINT Toolkit
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tcm-sec/tcm-osint/main/img/banner.png" alt="TCM OSINT Banner" />
-</p>
+# ⚡ JU5T L1NK5 & T00L5 – U53 TH3M 45 Y0U W4NT ⚡
 
 ```
-████████╗ ██████╗███╗   ██╗     ██████╗ ███████╗██╗███╗   ██╗████████╗
-╚══██╔══╝██╔════╝████╗  ██║    ██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝
-   ██║   ██║     ██╔██╗ ██║    ██║   ██║█████╗  ██║██╔██╗ ██║   ██║   
-   ██║   ██║     ██║╚██╗██║    ██║   ██║██╔══╝  ██║██║╚██╗██║   ██║   
-   ██║   ╚██████╗██║ ╚████║    ╚██████╔╝██║     ██║██║ ╚████║   ██║   
-   ╚═╝    ╚═════╝╚═╝  ╚═══╝     ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝   ╚═╝   
+      ___     __   _______   ________  __________  
+     / _ |   / /  / __/ _ | / ___/ _ \/ __/ __/ /  
+    / __ |  / /__/ _// __ |/ /__/ ___/ _/_\ \_/ /__ 
+   /_/ |_| /____/___/_/ |_|\___/_/  /___/___/____/ 
+
+              @@@@@@@@   @@@   @@@   @@@@@@@@
+              @@!        @@!   @@@   @@!  @@@
+              @!!!:!     @!@!@!@!    @!@!!@! 
+              !!:        !!:   !!!   !!: :!! 
+              : :: :::    :     :     :   : :
+
+                    ★ @DUCK 0S1NT  W4RR10R ★
 ```
 
-A powerful OSINT (Open Source Intelligence) resource list combined with essential reconnaissance tools and commands for cybersecurity professionals, ethical hackers, and researchers.
+> 🔥 **A fully weaponized list of OSINT links + tools. No rules from me. Use however you want.**
+> Pure education. Pure recon. Pure intelligence.
 
 ---
 
-## 🔍 **OSINT Websites & Tools**
+## 🕵️ **0S1NT L1NK5 (R4W, UNF1LT3R3D, FULL P0W3R)**
 
-### **📧 Email OSINT**
-- hunter.io
-- phonebook.cz
-- email-checker.net
-- dehashed.com
-- leakcheck.io
-- snusbase.com
-- scylla.sh
-- weleakinfo.to/v2/
+### 📧 **Email & Credential OSINT**
+- https://hunter.io/
+- https://phonebook.cz/
+- https://email-checker.net/
+- https://app.dehashed.com
+- https://leakcheck.io/
+- https://snusbase.com/
+- https://scylla.sh/
+- https://weleakinfo.to/v2/
 
-### **👤 Username / People Search**
-- whatsmyname.app
-- namecheckup.com
-- namechk.com
-- peekyou.com
-- 411.com
-- thatsthem.com
-- spokeo.com
+### 👤 **People / Username / Identity**
+- https://whatsmyname.app/
+- https://namecheckup.com/
+- https://namechk.com/
+- https://www.peekyou.com/
+- https://www.411.com/
+- https://thatsthem.com/
+- https://www.spokeo.com/
 
-### **📞 Phone Lookup**
-- calleridtest.com
+### 📞 **Phone Intelligence**
+- https://calleridtest.com/
 
-### **🌐 Domain, DNS, IP & Infrastructure**
-- viewdns.info
-- builtwith.com
-- centralops.net/co/
-- spyonweb.com
-- visualping.io
-- urlscan.io
-- dnsdumpster.com
-- crt.sh
-- shodan.io
-- web.archive.org
-- aihtidata.com
+### 🌐 **Domains / DNS / Infrastructure**
+- https://viewdns.info/
+- https://builtwith.com/
+- https://centralops.net/co/
+- https://spyonweb.com/
+- https://visualping.io/
+- https://urlscan.io/
+- https://dnsdumpster.com/
+- https://crt.sh/
+- https://www.shodan.io/
+- https://web.archive.org/
+- https://www.aihitdata.com/
 
-### **📡 Wireless / Metadata / Images**
-- wigle.net
-- exiftool.org
-- imginn.com
-- snapchat.com
+### 📡 **Wireless / Tracking / Metadata**
+- https://wigle.net/
+- https://exiftool.org/
 
-### **📁 OSINT Tools**
-- hunch.ly
-- sowsearch.info
+### 📸 **Social OSINT**
+- https://imginn.com/
+- https://www.snapchat.com/
+
+### 🎯 **Specialized OSINT Tools**
+- https://hunch.ly/
+- https://sowsearch.info/
 
 ---
 
-## 🛠️ **Linux Tools Installation**
-```bash
+## 🛠️ **T00L5 (L1NUX R34DY)**
+```
 sudo apt install sherlock
 recon-ng
 maltego
@@ -79,52 +80,43 @@ maltego
 
 ---
 
-## 🚀 **Recon Commands**
+## ⚙️ **R3C0N C0MM4ND5 (DR0P & RUN)**
 
-### **WHOIS Lookup**
-```bash
+### 🔍 WHOIS
+```
 whois tcm-sec.com
 ```
 
-### **Subdomain Enumeration**
-```bash
+### 🌑 Subdomain Bruteforce
+```
 subfinder -d tcm-sec.com
 assetfinder tcm-sec.com
 amass enum -d tcm-sec.com
 ```
 
-### **Sorting + Probing Alive Domains**
-```bash
+### ⚡ Alive Hosts
+```
 cat tesla.txt | sort -u | httprobe -s -p https:443
 ```
 
-### **Screenshot Recon with Gowitness**
-```bash
+### 🖼️ Screenshot Recon
+```
 gowitness file -f ./alive.txt -P ./pics --no-http
 ```
 
 ---
 
-## 🎨 **Hacker-Style Banner**
+## 💀 **H4CK3R B4NN3R**
 ```
-┌──────────────────────────────────────────────┐
-│   T C M   O S I N T   R E C O N   S U I T E   │
-└──────────────────────────────────────────────┘
-    ╲    ╱   ╲    ╱   ╲    ╱   ╲    ╱   ╲    ╱  
-     ╲  ╱     ╲  ╱     ╲  ╱     ╲  ╱     ╲  ╱   
-      ╳       ╳       ╳       ╳       ╳       
-     ╱ ╲     ╱ ╲     ╱ ╲     ╱ ╲     ╱ ╲     
-    ╱   ╲   ╱   ╲   ╱   ╲   ╱   ╲   ╱   ╲    
+██████╗ ██╗   ██╗ ██████╗ ███╗   ██╗████████╗
+██╔══██╗██║   ██║██╔═══██╗████╗  ██║╚══██╔══╝
+██████╔╝██║   ██║██║   ██║██╔██╗ ██║   ██║   
+██╔══██╗██║   ██║██║   ██║██║╚██╗██║   ██║   
+██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║   ██║   
+╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   
+      TH3 0S1NT W34P0N K1T
 ```
 
 ---
 
-## ⭐ **Contribute**
-Feel free to submit pull requests or suggest new OSINT tools!
-
-## 📜 **License**
-MIT
-
----
-
-> **Made for OSINT researchers, cybersecurity students, and ethical hackers.**
+## ⭐ **N0 RUL3S. N0 L1M1T5. JU5T D4T4.**
